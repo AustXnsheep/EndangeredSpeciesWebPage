@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #33333F;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #B1B1B1;
+}
+
+#species-info {
+    margin-top: 20px;
+}
+
+.species {
+  border: 1px solid black;
+  background-color: gray;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.search-container {
+  margin: 20px;
+}
+
+#searchInput {
+  padding: 8px;
+  width: 200px;
+}
+
+#list li {
+  display: none;
+  list-style-type: none;
+}
+
+#list li.show {
+  display: block;
+}
